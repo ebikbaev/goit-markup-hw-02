@@ -1,7 +1,16 @@
+:root{
+  --white:#ffffff;
+  --iris:#4D5AE5;
+  --navy-blue:#2E2F42;
+  --ocean:#404BBF;
+  --f4f4fd:#f4f4fd;
+  --e7e9fc:#e7e9fc;
+}
 /*-------------------------------------------------- body------------------------------------------------------------------- */
 body {
-  color: #ffffff;
+  color:var(--white);
   font-family: "Roboto", sans-serif;
+  color: #434455;
 }
 /*-------------------------------------------------- header------------------------------------------------------------------- */
 .logo-span {
@@ -14,7 +23,7 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: var(--navy-blue);
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -26,9 +35,13 @@ body {
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
-  color: #4d5ae5;
+  color: var(--iris);
 }
 .link {
+  list-style-type: none;
+  text-decoration: none;
+}
+.list {
   list-style-type: none;
   text-decoration: none;
 }
@@ -40,10 +53,10 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color:var(--navy-blue);
 }
 .header-text:hover {
-  color: #404bbf;
+  color: var(--ocean);
 }
 .header-menu {
   font-family: "Roboto", sans-serif;
@@ -52,15 +65,15 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--navy-blue);
 }
 .header-menu:hover {
-  color: #404bbf;
+  color: var(--ocean);
 }
 
 /*-------------------------------------------------- section1------------------------------------------------------------------- */
 .hero-container {
-  background: #2e2f42;
+  background: var(--navy-blue);
 }
 .hero-text-container {
   font-family: "Roboto", sans-serif;
@@ -70,10 +83,10 @@ body {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--white);
 }
 .hero-btn {
-  background-color: #4d5ae5;
+  background-color: var(--iris);
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -82,14 +95,15 @@ body {
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: var(--white);
+  cursor: pointer
 }
 .hero-btn:hover {
-  background-color: #404bbf;
+  background-color: var(--ocean);
   cursor: pointer;
 }
 .hero-btn:focus {
-  background-color: #404bbf;
+  background-color: var(--ocean);
 }
 /*-------------------------------------------------- section2------------------------------------------------------------------- */
 .caption-texts {
@@ -99,7 +113,7 @@ body {
   font-size: 20px;
   line-height: calc(24 / 20);
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--navy-blue);
 }
 .caption-comment {
   font-family: "Roboto", sans-serif;
@@ -108,7 +122,7 @@ body {
   font-size: 16px;
   line-height: calc(24 / 16);
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--navy-blue);
 }
 /*-------------------------------------------------- section3------------------------------------------------------------------- */
 .work-hero-caption {
@@ -116,11 +130,11 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: calc(40 / 36);
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--navy-blue);
 }
 /*-------------------------------------------------- section4------------------------------------------------------------------- */
 .team-caption {
@@ -132,7 +146,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--navy-blue);
 }
 .our-employees {
   font-family: "Roboto", sans-serif;
@@ -142,45 +156,45 @@ body {
   line-height: calc(24 / 20);
   text-align: center;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--navy-blue);
 }
 .empl-comment {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: calc(24 / 16);
+  line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--navy-blue);
 }
 /*-------------------------------------------------- section4------------------------------------------------------------------- */
 .footer {
-  background-color: #2e2f42;
+  background-color: var(--navy-blue);
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: calc(21 / 18);
+  line-height: 1.17;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--iris);
 }
 .footer-span {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: calc(21 / 18);
+  line-height: 1.17;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: var(--f4f4fd);
 }
 .footer-comment {
   font-family: "Roboto", sans-serif;
@@ -189,7 +203,7 @@ body {
   font-size: 16px;
   line-height: 1.17;
   letter-spacing: 0.02em;
-  color: #e7e9fc;
+  color: var(--e7e9fc);
 }
 /*-------------------------------------------------- portfolio------------------------------------------------------------------- */
 .photo-text {
@@ -199,14 +213,36 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--navy-blue);
 }
 .photo-comment {
-  font-family: "Roboto",sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.btn {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--white);
+  cursor: pointer;
+  background-color: #F4F4FD;
+}
+.btn:hover{
+  color: var(--white);
+  background-color: var(--ocean);
+}
+.btn:focus{
+  color: var(--white);
+  background-color: var(--ocean);
 }
