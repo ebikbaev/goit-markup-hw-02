@@ -60,6 +60,9 @@ body {
 .header-text:hover {
   color: var(--ocean);
 }
+.header-text:focus {
+  color: var(--ocean);
+}
 
 .header-menu {
   font-family: "Roboto", sans-serif;
