@@ -171,9 +171,12 @@ body {
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
-  color: var(--navy-blue);
+  color: var(--gray);
 }
 /*-------------------------------------------------- section4------------------------------------------------------------------- */
+.hero-li{
+  background-color: var(--white) ;
+}
 .footer {
   background-color: var(--navy-blue);
 }
@@ -239,9 +242,9 @@ body {
   align-items: center;
   text-align: center;     
   letter-spacing: 0.04em;
-  color: var(--white);
+  color: var(--iris);
   cursor: pointer;
-  background-color: var(--iris);
+  background-color: var(--f4f4fd);
 }
 .btn:hover{
   color: var(--white);
