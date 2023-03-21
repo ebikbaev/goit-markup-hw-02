@@ -59,6 +59,9 @@ body {
 .header-contacts:hover{
   color: var(--ocean)
 }
+.header-contacts:focus{
+  color: var(--ocean)
+}
 
 .header-menu {
   color: var(--navy-blue);
