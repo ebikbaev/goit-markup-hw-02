@@ -55,6 +55,9 @@ body {
 .header-text:focus {
   color: var(--ocean);
 }
+.header-contacts:hover{
+  color: var(--ocean)
+}
 
 .header-menu {
   color: var(--navy-blue);
@@ -103,6 +106,7 @@ body {
 .hero-btn:focus {
   background-color: var(--ocean);
 }
+
 /*-------------------------------------------------- section2------------------------------------------------------------------- */
 .caption-texts {
   font-weight: 500;
